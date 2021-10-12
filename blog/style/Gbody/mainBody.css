@@ -1,0 +1,86 @@
+*{    margin: 0;    padding: 0;    box-sizing: border-box;}
+.anote{    width: 67%;    margin: auto;}
+.t-c{    text-align: center;}
+.m-t{    margin-top: 10px;}
+.m-l{    margin-left:10px;}
+.m-r{    margin-right: 10px;}
+.m-a{    margin: auto;}
+.m-b{    margin-bottom: 10px;}
+.signup-btn{    background-color: #00ff5a;    width: 50px;    padding: 3px;    border: 0.2px solid;    border-radius: 3px;    margin-top: 13px;}
+.form-control{    width: 50%;    margin: auto;}
+.alert-message{    padding: 5px;    font-family: sans-serif;}
+.a-c{    align-items: center;}
+.text-main{    position: absolute;    width: 100%;    color: white;}
+.home-body{    justify-content: center;}
+.text-content{    margin-top: 10%;}
+.flex-single{    display: flex;}
+.text-para{    text-align: center;    width: 50%;    margin: auto;}
+.img-main{    background: #9974be;}
+.img-main::before{    margin: auto;    margin-top: 5px;    z-index: -1;    opacity: 0.89;}
+.img-main img{    height: 430px;    width: 100%;    align-items: center;}
+.flexible{    display: flex;    margin-top: 10px;}
+.coloums{    flex-direction: column;}
+.content-img{    margin: auto;    width: 365px;    margin: 20px;    border: 1px solid rgb(6, 247, 98);    border-radius: 10px;    margin-top: 5px;}
+.content-img img{    height: 240px;    width: 100%;    border: 1px solid;    border-radius: 6px;}
+.main-container{    margin-top: -4px;}
+.change-text{    text-align: center;    width: 100%;    margin: auto;    display: block;}
+.banner-date{    width: 87px;    margin-left: auto;}
+.cart-user-content{    padding: 8px;}
+.dash-container{    overflow-x: auto;}
+table{    border-spacing: 0;    border-collapse: collapse;    background: white;    border: 1px solid;    width: 1165px;    margin: auto;}
+th, td{    padding: 8px;}
+.dash-tr:nth-child(even){    background: rgb(191, 194, 190);}
+.dash-image{    width: 117px;    border: 1px solid black;}
+.dash-title{    width: 348px;    padding: 1px;    height: 80px;    text-align: start;    font-size: 1rem;    font-family: 'Gill Sans', 
+    'Gill Sans MT', Calibri,
+    'Trebuchet MS', sans-serif;}
+.dash-views{    margin-top: 32px;}
+.d-none{    display: none;}
+.d-block{    display: block;}
+.image-upload{    height: 25vmax;    width: 100%;}
+.form-body{    font-size: 1rem;}
+.image-preview{    border: 1px solid;    border-radius: 6px;}
+.channel-image img{    display: block;    height: 9vmax;    width: 24%;    margin: 10px auto 10px auto;    border: 1px solid aqua;    border-radius: 101px;}
+.right-channel{    width: 69vmax;    height: auto;    margin: 5px;    border: 2px solid;    border-radius: 10px;    }
+.left-channel{    width: 100%;    height: 100vh;    margin: 5px;    overflow: auto;    border: 1px solid;    border-radius: 10px;}
+.pointMenu{    width: 95%;    margin: auto;    height: 95%;    border-radius: 10px;}
+.subscribe-channel{    width: 25%;}
+.multi-cha-img img{    height: 16vmax;    width: 96%;    margin: auto;    border: 1px solid;    border-radius: 10px;}
+.cha-card{    width: 96%;    margin: auto;}
+.sign-u-img{    margin: auto;    width: 156px;    height: 125px;   }
+.sign-u-img img{    width: 100%;    height: 100%;    border: 1px solid;    border-radius: 10px;}
+.profile-u-body{    display: block;    width: 50%;    margin: auto;}
+.topics-list{    text-decoration: none;}
+
+@media only screen and (max-width: 600px) { 
+    .anote{        width: 100%;    }
+    .img-main{        width: 100%;    }
+    .text-para{        width: 100%;    }
+    .img-main img{      height: 190px;    }
+    .flex-coloum{        flex-direction: column;    }
+    .content-img{        width: 100%;        margin: auto;    }
+    .content-img img{        height: 195px;    }
+    .form-control{        width: 100%;    }
+    .image-upload{        height: 42vmax;    }
+    .channel-image img{        height: 15vmax;    }
+    .blog-col{        flex-direction: column;    }
+    .subscribe-channel{        flex-direction: column;        width: 38%;    }
+    .multi-cha-img img{ height: 48vmax;        width: 100%;        margin: auto;        border: 1px solid;        border-radius: 10px;    } 
+    .right-channel{        width: 100%;    }
+    .channel-info{        display: none;    }
+    .profile-u-body{        width: 100%;    }    
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .anote{        width: 80%;    }
+    .content-img{        margin: 10px;        width: 90%;    }
+    .content-img img{        height: 147px;       }
+    .channel-image img{        height: 15vmax;    }
+    .right-channel{        margin: auto;    }
+    .multi-cha-img img{        height: 25vmax;        width: 96%;        margin: auto;        border: 1px solid;        border-radius: 10px;    } 
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {    
+    .content-img{         width: 93%;         margin: 10px;    }
+    .content-img img{     height: 179px;    }    
+}

@@ -1,0 +1,36 @@
+*{    margin: 0;    padding: 0;    box-sizing: border-box;}
+/* color-list */
+.cr-white{     color: white; }
+.cr-red{     color: red; }
+.cr-green{     color: green; }
+.cr-yellow{     color: yellow; }
+.cr-pink{     color: pink; }
+.cr-blue{     color: blue; }
+.cr-black{     color: black; }
+.cr-greenyellow{     color: greenyellow; }
+.cr-aqua{     color: aqua; }
+.cr-darkred{     color: darkred; }
+.cr-aliceblue{     color: aliceblue; }
+.cr-aquamarine{    color: aquamarine;}
+.cr-greenlight{    color: #5fb15f;}
+/* backgroun-color-list */
+.bc-white{     background: white; }
+.bc-red{     background: red; }
+.bc-green{     background: green; }
+.bc-yellow{     background: yellow; }
+.bc-pink{     background: pink; }
+.bc-blue{     background: blue; }
+.bc-greenyellow{     background: greenyellow; }
+.bc-aqua{     background: aqua; }
+.bc-darkred{     background: darkred; }
+.bc-aliceblue{     background: aliceblue; }
+.bc-gray{    background: gray;}
+.bc-aquamarine{    background: aquamarine;}
+.bc-greenlight{    background: #5fb15f;}
+.bc-gy-alert{    background: rgb(194, 232, 120);}
+.bc-black-alert{    background: #3e3a3a;}
+.bc-red-alert{    background: #ea6969;}
+.bc-green-alert{    background: rgb(105, 223, 105);}
+.user-con:hover{    background: greenyellow;}
+.footer-many:hover{    background: gray;}
+

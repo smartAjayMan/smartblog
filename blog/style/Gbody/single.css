@@ -1,0 +1,49 @@
+* {    margin: 0;    padding: 0;    box-sizing: border-box;}
+.many-container {    margin: auto;    margin-top: 10px;    width: 100%;}
+.right-container {    width: 197vmax;    height: 700px;    margin: 5px;    border: 2px solid;    border-radius: 10px;    overflow: auto;}
+.left-container {    width: 100%;    height: 100vh;    margin: 5px;}
+.single-title {    padding: 21px;    text-align: left;}
+.single-body {    padding: 21px;    text-align: left;    font-size: 1.3rem;    font-family: serif;}
+.single-img {    padding: 18px;}
+.single-img img {    width: 100%;    margin: auto;    height: 440px;    border: 1px solid;    border-radius: 10px;}
+.single-user {    width: 95%;    margin: auto;}
+.flex-s-coloum {    flex-direction: column;}
+.m-l {    margin-left: 7px;    margin-right: 7px;}
+.unsubscribe-btn {    border: 1px solid red;    padding: 2px;    border-radius: 2px;    background: red;    color: white;}
+.subscribe-btn {    border: 1px solid red;    padding: 2px;    border-radius: 2px;    background: #8c8282;    color: white;}
+.form-c {    border: none;}
+.comment-show {    padding-top: 11px;    border-radius: 8px;    margin-top: 10px;}
+.multiple-img {    padding-bottom: 2px;}
+.multiple-img img {    height: 223px;}
+.multi-single-user {    width: 88%;}
+.single-title {    padding-top: 6px;}
+.data-flexing {    display: flex;    width: 86%;    margin: auto;}
+.date-single {    text-align: end;    width: 100%;}
+.tp-ur {    display: grid;    grid-template-columns: 1fr 1fr;}
+
+@media only screen and (max-width: 600px) {
+    .tp-ur {        display: grid;        grid-template-columns: 1fr;    }
+    .many-container {        flex-direction: column;        margin: auto;        margin-top: 10px;        width: 99%;        align-items: center;    }
+    .right-container {        overflow: hidden;        width: 100%;        height: auto;        border: none;        border-radius: 0;    }
+    .left-container {        height: auto;    }
+    .multiple-img img {        height: 233px;    }
+    .single-img {        padding: 0;    }
+    .single-user {        flex-direction: column;    }
+    .banner-date {        display: block;        margin-right: auto;        width: 100%;    }
+    .m-t {        margin-top: 5px;    }
+    .single-img img {        width: 100%;        margin: auto;        height: 50vmax;        border: none;        border-radius: 0px;    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .many-container {        flex-direction: column;    }
+    .right-container {        overflow: hidden;        width: 98%;        height: auto;    }
+    .left-container {        height: auto;    }
+    .multiple-img img {        height: 53vmax;    }
+    .single-img img {        height: 53vmax;    }
+    .data-flexing {        width: 94%;    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .single-img img {        height: 34vmax;    }
+    .multiple-img img {        height: 19vmax;    }
+}

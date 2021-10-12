@@ -1,0 +1,153 @@
+* {    outline: none;    margin: 0;    padding: 0;    box-sizing: border-box;}
+#notification-alert-show {    display: none;}
+.nav-main {    display: flex;    height: 61px;}
+.user-message-send a {    text-decoration: none;}
+.nav-secondary {    display: flex;    width: 23%;}
+.tie-name {    margin: 15px;}
+.tie-name a {    color: red;}
+.tie-name a span {    color: black;}
+.nofication-bell-icon {    text-align: center;}
+.tie {    margin-top: 21px;}
+.bi-bell:hover {    color: rgb(231, 240, 231);}
+.bi-x:hover {    background: yellowgreen;}
+.bi-arrow-left-short {    margin-top: 6px;}
+.search-bar {    width: 746px;}
+.search-bar-wrapper {    height: 28px;    display: flex;    margin-top: 20px;}
+.search-bar-wrapper input {    border: none;    width: 661px;    border-bottom: 1.5px yellowgreen;    font-size: 1rem;}
+.search-bar-wrapper input:hover {    border: none;    width: 661px;    border-bottom: 1.5px solid #33bcf2;    font-size: 1rem;}
+.search-icon-submit {    border: none;    background: yellowgreen;    width: 47px;    text-align: center;    padding-top: 7px;    height: 28px;    margin: auto;    border-radius: 1px;}
+.search-icon-submit:hover {    border: none;    background: aqua;    color: #26148e;    width: 47px;    text-align: center;    padding-top: 7px;    height: 28px;    margin: auto;    border-radius: 1px;    border-bottom: 1.5px solid #33bcf2;}
+.search-exists-icon {    position: relative;    width: 35px;    height: 29px;    background-color: yellowgreen;    text-align: center;}
+.search-exists-icon:hover {    position: relative;    width: 35px;    height: 27px;    background-color: aqua;    text-align: center;}
+.user-controller {    display: flex;    width: 11%;    margin-top: 17px;    margin-left: auto;}
+.login-logo {    margin-right: 12px;    border-radius: 8px;    background: aqua;    border: .1px solid silver;    width: 100%;    height: 25px;}
+.signup-logo {    margin-left: 10px;    border-radius: 8px;    background: aqua;    border: .1px solid silver;    width: 100%;    height: 25px;}
+.login-logo:hover {    margin-right: 12px;    border-radius: 8px;    background: rgb(16, 235, 34);    border: .1px solid silver;    color: white;    width: 100%;    height: 25px;}
+.signup-logo:hover {    margin-left: 10px;    border-radius: 8px;    background: rgb(16, 235, 34);    border: .1px solid silver;    color: white;    width: 100%;    height: 25px;}
+.search-main-content {    background: white;    position: absolute;    width: 744px;    margin-top: 29px;}
+.search-many-content {    list-style: none;    list-style: none;    height: 37px;    border: 0.5px solid silver;    border-top: none;}
+.search-many-content:hover {    list-style: none;    list-style: none;    height: 37px;    background: #97ffff;    border: 0.5px solid silver;    border-top: none;}
+.small-content {    padding-top: 12px;}
+.small-content a {    text-decoration: none;    color: #0e0b0b;    padding-top: 6px;    padding-left: 8px;    font-size: 1.1rem;}
+.user-icon-set {    width: 45px;    height: 43px;    text-align: center;    background: white;    border-radius: 26px;    border: 4px solid rgb(11, 241, 49);    font-size: 2rem;    position: relative;    margin-top: -8px;    margin-left: auto;    margin-right: 29px;    background: linear-gradient( -135deg, #f30ae3, #0dfb61);}
+.user-icon-set a {    text-decoration: none;}
+.icon-log-user {    color: white;    width: 100%;    border-radius: 18px;    height: 100%;    border: 1px solid black;}
+.numberCount-notify {    position: absolute;    background: white;    width: 17px;    border-radius: 10px;    font-size: 0.8rem;    border: 1px solid;    margin-top: 13px;}
+.numberCount-notify b {    font-size: 0.6rem;    color: red;}
+.notification-content {    position: absolute;    background: white;    width: 855px;    text-align: start;    background-repeat: no-repeat;    display: block;    border: 0.4px solid;    margin-top: 16px;    margin-left: 83px;}
+.user-notify-aleter {    text-align: end;    background: #39a932;    height: 31px;    border-bottom: 1px solid;}
+.close-message {    background: red;    width: 25px;    height: 24px;    display: inline-flex;    padding: 4px;    padding-left: 7px;}
+.close-message:hover {    background: aliceblue;    width: 25px;    height: 24px;    display: inline-flex;    padding: 4px;    padding-left: 7px;}
+.list-item-mes, .list-item-message {    list-style: none;}
+.list-item-message {    padding: 10px;    border-bottom: 1px solid silver;}
+.logo-icon {    display: flex;}
+.search-icon-close-show {    display: none;}
+.notification-img {    width: 61px;    height: 43px;    margin-right: 10px;}
+.notification-img img {    width: 100%;    height: 100%;}
+
+@media only screen and (max-width: 600px) {
+    .nav-secondary {        width: 71%;    }
+    .tie-name a span {        display: none;    }
+    .notification-img {        width: 47%;        height: 86%;    }
+    .user-controller {        width: 41%;    }
+    .user-icon-set {        width: 27px;        height: 65%;        text-align: center;        background: white;        border-radius: 18px;        border: 1px solid rgb(11, 241, 49);        font-size: 1.3rem;        position: relative;        margin-top: 2%;        margin-left: 0px;        margin-right: 0%;        background: linear-gradient(-135deg, #f30ae3, #0dfb61);    }
+    .tie {        width: 100%;    }
+    .bi-bell {        width: 100%;    }
+    .search-bar {        width: 100%;    }
+    .search-bar-wrapper {        display: none;        height: 100%;        margin-top: 21px;        margin-left: 6%;    }
+    .search-bar-wrapper input {        width: 75%;        font-size: 0.9rem;        border-bottom: 1px solid silver;        padding: 4px;    }
+    .search-bar-wrapper input:hover {        width: 75%;        font-size: 0.9rem;        padding: 4px;    }
+    .search-icon-close-show {        display: block;        width: 18%;        margin-left: 47%;        margin-top: 26px;    }
+    .search-icon-submit {        padding: 6px;        margin-left: -4px;        padding-bottom: 5px;        padding-top: 3px;        position: relative;    }
+    .search-icon-submit:hover {        padding: 6px;        margin-left: -4px;        padding-bottom: 5px;        padding-top: 3px;        position: relative;    }
+    .search-main-content {        width: 74%;        margin-top: 1px;        margin-left: 10%;    }
+    .bi-search {        padding-top: 6px;    }
+    .bi-arrow-left-short {        margin-left: 5px;        margin-bottom: -3px;        width: 7%;    }
+    .search-many-content {        height: 0%;    }
+    .search-many-content:hover {        height: 0%;    }
+    .small-content {        padding-top: 0px;    }
+    .small-content a {        font-size: 0.9rem;        padding-left: 0;        padding-top: 0;    }
+    .small-content a:hover {        font-size: 0.9rem;        padding-left: 0;        padding-top: 0;    }
+    .tie {        width: 26px;    }
+    .nav-title {        width: 69%;    }
+    .tie-name a {        background: green;        padding: 2px 10px;        border-radius: 17px;        border: 1px solid silver;    }
+    .tie-name {        margin: 17px;    }
+    .bi-search-show-hidden:hover {        background: aqua;        padding: 2px 0px 0px 2px;    }
+    .search-exists-icon {        padding-top: 3px;        padding-bottom: 5px;    }
+    .bi-x {        margin-top: -17px;    }
+    .signup-logo {        display: none;    }
+    .login-logo {        margin-right: 5px;        border-radius: 8px;        background: aqua;        border: .1px solid silver;        width: 100%;        height: 25px;    }
+    .user-many-controller {        margin-right: 5px;    }
+    .notification-content {        position: absolute;        background: white;        width: 87%;        text-align: start;        background-repeat: no-repeat;        display: block;        border: 0.4px solid;        margin-top: 16px;        margin-left: -19%;    }
+    .user-log-user {        width: 22px;    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .nav-secondary {        width: 71%;    }
+    .tie-name a span {        display: none;    }
+    .user-controller {        width: 41%;    }
+    .user-icon-set {        width: 27px;        height: 61%;        text-align: center;        background: white;        border-radius: 18px;        border: 1px solid rgb(11, 241, 49);        font-size: 1.3rem;        position: relative;        margin-top: 2%;        background: linear-gradient(-135deg, #f30ae3, #0dfb61);    }
+    .tie {        width: 100%;    }
+    .bi-bell {        width: 100%;    }
+    .search-bar {        width: 100%;    }
+    .search-bar-wrapper {        display: none;        height: 100%;        margin-top: 19px;        margin-left: 6%;    }
+    .search-bar-wrapper input {        width: 75%;        font-size: 0.9rem;        border-bottom: 1px solid silver;        height: 28px;        padding-top: 2px;    }
+    .search-bar-wrapper input:hover {        width: 75%;        font-size: 0.9rem;        padding-top: 2px;    }
+    .search-icon-close-show {        display: block;        width: 18%;        margin-left: 47%;        margin-top: 26px;    }
+    .search-icon-submit {        padding: 11px;        margin-left: -4px;        padding-bottom: 5px;        padding-top: 6px;        position: relative;    }
+    .search-icon-submit:hover {        padding: 11px;        margin-left: -4px;        padding-bottom: 5px;        padding-top: 6px;        position: relative;    }
+    .search-main-content {        width: 83.3%;        margin-top: 1px;        margin-left: 0%;    }
+    .search-many-content {        height: 0%;    }
+    .search-many-content:hover {        height: 0%;    }
+    .small-content {        padding-top: 9px;    }
+    .small-content a {        font-size: 0.9rem;        padding-left: 0;        padding-top: 0;    }
+    .small-content a:hover {        font-size: 0.9rem;        padding-left: 0;        padding-top: 0;    }
+    .tie {        width: 26px;    }
+    .nav-title {        width: 69%;    }
+    .tie-name a {        background: green;        padding: 2px 10px;        border-radius: 17px;        border: 1px solid silver;    }
+    .tie-name {        margin: 17px;    }
+    .bi-search-show-hidden:hover {        background: aqua;        padding: 2px 0px 0px 2px;    }
+    .search-exists-icon {        padding-top: 6px;        padding-bottom: 6px;    }
+    .bi-arrow-left-short {        width: 7%;    }
+    .bi-x {        margin-top: -17px;    }
+    .signup-logo {        display: none;    }
+    .login-logo {        margin-right: 5px;        border-radius: 8px;        background: aqua;        border: .1px solid silver;        width: 100%;        height: 25px;    }
+    .user-many-controller {        margin-right: 5px;    }
+    .notification-content {        position: absolute;        background: white;        width: 87%;        text-align: start;        background-repeat: no-repeat;        display: block;        border: 0.4px solid;        margin-top: 16px;        margin-left: -19%;    }
+    .user-log-user {        width: 22px;    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .nav-secondary {        width: 71%;    }
+    .tie-name a span {        display: none;    }
+    .user-controller {        width: 41%;    }
+    .user-icon-set {        width: 27px;        height: 61%;        text-align: center;        background: white;        border-radius: 18px;        border: 1px solid rgb(11, 241, 49);        font-size: 1.3rem;        position: relative;        margin-top: 2%;        background: linear-gradient(-135deg, #f30ae3, #0dfb61);    }
+    .tie {        width: 100%;    }
+    .bi-bell {        width: 100%;    }
+    .search-bar {        width: 100%;    }
+    .search-bar-wrapper {        display: none;        height: 100%;        margin-top: 19px;        margin-left: 6%;    }
+    .search-bar-wrapper input {        width: 75%;        font-size: 0.9rem;        border-bottom: 1px solid silver;        height: 28px;        padding-top: 2px;    }
+    .search-bar-wrapper input:hover {        width: 75%;        font-size: 0.9rem;        padding-top: 2px;    }
+    .search-icon-close-show {        display: block;        width: 18%;        margin-left: 47%;        margin-top: 26px;    }
+    .search-icon-submit {        padding: 11px;        margin-left: -4px;        padding-bottom: 5px;        padding-top: 6px;        position: relative;    }
+    .search-icon-submit:hover {        padding: 11px;        margin-left: -4px;        padding-bottom: 5px;        padding-top: 6px;        position: relative;    }
+    .search-main-content {        width: 82%;        margin-top: 1px;        margin-left: 0%;    }
+    .search-many-content {        height: 0%;    }
+    .search-many-content:hover {        height: 0%;    }
+    .small-content {        padding-top: 9px;    }
+    .small-content a {        font-size: 0.9rem;        padding-left: 0;        padding-top: 0;    }
+    .small-content a:hover {        font-size: 0.9rem;        padding-left: 0;        padding-top: 0;    }
+    .tie {        width: 26px;    }
+    .nav-title {        width: 69%;    }
+    .tie-name a {        background: green;        padding: 2px 10px;        border-radius: 17px;        border: 1px solid silver;    }
+    .tie-name {        margin: 17px;    }
+    .bi-search-show-hidden:hover {        background: aqua;        padding: 2px 0px 0px 2px;    }
+    .search-exists-icon {        padding-top: 6px;        padding-bottom: 5px;    }
+    .bi-arrow-left-short {        width: 7%;    }
+    .bi-x {        margin-top: -17px;    }
+    .signup-logo {        display: block;    }
+    .login-logo {        margin-right: 5px;        border-radius: 8px;        background: aqua;        border: .1px solid silver;        width: 100%;        height: 25px;    }
+    .user-many-controller {        margin-right: 5px;    }
+    .notification-content {        position: absolute;        background: white;        width: 87%;        text-align: start;        background-repeat: no-repeat;        display: block;        border: 0.4px solid;        margin-top: 16px;        margin-left: -19%;    }
+    .user-log-user {        width: 22px;    }
+}
